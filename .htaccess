@@ -1,0 +1,16 @@
+
+RewriteEngine On
+
+# پروژه داخل پوشه mvc
+RewriteBase /mvc/
+
+# اگر فایل یا پوشه واقعی نبود
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# همه درخواست‌ها به index.php
+RewriteRule ^(.*)$ index.php [L,QSA]
+
+# جلوگیری از دسترسی مستقیم به پوشه‌های داخلی
+RewriteCond %{REQUEST_URI} ^/mvc/(application|system|view) [NC]
+RewriteRule ^ - [R=403,L]
