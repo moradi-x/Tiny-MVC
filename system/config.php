@@ -10,4 +10,4 @@ unset($tmp);
 $dbHost = "localhost" ;
 $dbName  = "mvc_blog" ;
 $dbUserName = "root";
-$dbPassword = "MM13831383";
+$dbPassword = "";
