@@ -24,7 +24,7 @@
                     <section class="sidebar">
                         <?php $base_url = "http://localhost:8000/mvc/"; ?>
                         <section class="sidebar-link">
-                            <a href="<?= $base_url ?>panel">panel</a>
+                            <a href="<?= $this->url('home') ?>">panel</a>
                         </section>
                         <section class="sidebar-link">
                             <a href="<?= $base_url ?>category">category</a>
