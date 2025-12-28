@@ -1,4 +1,4 @@
-# MVC Blog Blog (Educational Project)
+# Tiny MVC Blog (Educational Project)
 
 This project is built on a lightweight custom MVC framework called Tiny-MVC,
 developed from scratch using Object-Oriented PHP for educational purposes.
