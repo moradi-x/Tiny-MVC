@@ -7,8 +7,8 @@ developed from scratch using Object-Oriented PHP for educational purposes.
 ## Screenshots
 
 <p align="">
-  <img src="public/Demo/home.png" width="480" alt="Home Page">
-  <img src="public/Demo/single.png" width="480" alt="Single Article Page">
+  <img src="public/Demo/home.png" width="250" Height="250"  alt="Home Page">
+  <img src="public/Demo/single.png" width="250" Height="250" alt="Single Article Page">
 </p>
 
 ---
@@ -16,13 +16,13 @@ developed from scratch using Object-Oriented PHP for educational purposes.
 ### Admin Panel
 
 <p align="center">
-  <img src="public/Demo/panelArticle.png" width="300" alt="Articles Panel">
-  <img src="public/Demo/panelCategory.png" width="300" alt="Categories Panel">
+  <img src="public/Demo/panelArticles.png" width="200" Height="200" alt="Articles Panel">
+  <img src="public/Demo/panelCategory.png" width="200" Height="200" alt="Categories Panel">
 </p>
 
 <p align="center">
-  <img src="public/Demo/panelEditArticle.png" width="300" alt="Edit Article Page">
-  <img src="public/Demo/panelCreateCategory.png" width="300" alt="Create Category Page">
+  <img src="public/Demo/panelEditArticle.png" width="200" alt="Edit Article Page">
+  <img src="public/Demo/panelCreateCategory.png" width="200" alt="Create Category Page">
 </p>
 
 ## Installation & Setup
