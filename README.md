@@ -43,3 +43,13 @@ developed from scratch using Object-Oriented PHP for educational purposes.
 ```http://localhost:8000/mvc/home```
 
 6. Run the project locally on Desktop (Localhost).
+
+
+## About the Project
+This project is built using HTML, CSS, JavaScript, PHP, MySQL, and Object-Oriented Programming (OOP).
+The main goal of this project is to understand and implement the MVC architectural pattern in practice.
+It demonstrates proper separation of concerns through organized Model, View, and Controller folders,
+along with a custom routing system, URL management, and dynamic content handling.
+The project is designed purely for educational purposes.
+
+
