@@ -1,55 +1,40 @@
-# Tiny MVC Blog (Educational Project) 
+# وبلاگ Tiny MVC | پروژه آموزشی مورادیکس (Moradix)
 
-This project is built on a lightweight custom MVC framework called Tiny-MVC,
-developed from scratch using Object-Oriented PHP for educational purposes.
+این پروژه بر پایه‌ی یک فریم‌ورک سبک و اختصاصی MVC به نام **Tiny-MVC** توسعه داده شده است.
+
+این فریم‌ورک با استفاده از زبان PHP و رویکرد برنامه‌نویسی شیءگرا (OOP)، از ابتدا و با هدف یادگیری و اهداف آموزشی پیاده‌سازی شده است.
+
 ---
 
-## Screenshots
+## 📸 تصاویر پروژه
 
 <p align="center">
-  <img src="public/Demo/home.png" width="250" Height="250"  alt="Home Page">
-  <img src="public/Demo/single.png" width="250" Height="250" alt="Single Article Page">
+  <img src="public/Demo/home.png" width="250" height="250" alt="صفحه اصلی">
+  <img src="public/Demo/single.png" width="250" height="250" alt="صفحه مطلب">
 </p>
 
 ---
 
-### Admin Panel
+### 🔐 پنل مدیریت
 
 <p align="center">
-  <img src="public/Demo/panelArticles.png" width="240" Height="250" alt="Articles Panel">
-  <img src="public/Demo/panelCategory.png" width="240" Height="200" alt="Categories Panel">
-  <img src="public/Demo/panelEditArticle.png" width="240" Height="200" alt="Edit Article Page">
-  <img src="public/Demo/panelCreateCategory.png" width="240" Height="200" alt="Create Category Page">
+  <img src="public/Demo/panelArticles.png" width="240" height="250" alt="پنل مدیریت مطالب">
+  <img src="public/Demo/panelCategory.png" width="240" height="200" alt="پنل مدیریت دسته‌بندی‌ها">
+  <img src="public/Demo/panelEditArticle.png" width="240" height="200" alt="صفحه ویرایش مطلب">
+  <img src="public/Demo/panelCreateCategory.png" width="240" height="200" alt="صفحه ایجاد دسته‌بندی">
 </p>
 
-## Installation & Setup
+---
 
-1. Clone the repository:
+## ⚙️ نصب و راه‌اندازی
 
-2. Navigate to the project directory and run the PHP built-in server:
+### ۱. دریافت مخزن پروژه
 
-```php -S localhost:8000```
+مخزن پروژه را از گیت‌هاب دریافت کنید.
 
- Do not use only port ``8000``
+### ۲. ورود به پوشه پروژه و اجرای سرور داخلی PHP
 
- You must manually update the server URL inside the project files if needed
+در ترمینال، دستور زیر را اجرا کنید:
 
-3. Import the provided SQL file into your MySQL database.
-
-4. Open the config.php file and set your database credentials: ``Password``
-
-5. Open the project in your browser:
-
-```http://localhost:8000/mvc/home```
-
-6. Run the project locally on Desktop (Localhost).
-
-
-## About the Project
-This project is built using HTML, CSS, JavaScript, PHP, MySQL, and Object-Oriented Programming (OOP).
-The main goal of this project is to understand and implement the MVC architectural pattern in practice.
-It demonstrates proper separation of concerns through organized Model, View, and Controller folders,
-along with a custom routing system, URL management, and dynamic content handling.
-The project is designed purely for educational purposes.
-
-
+```bash
+php -S localhost:8000
